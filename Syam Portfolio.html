@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile | CS Student</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f4f7fc;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, #1e2a5e, #2a3f7e);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        .content {
+            padding: 2rem;
+        }
+        section {
+            margin-bottom: 2rem;
+            border-bottom: 1px solid #e0e7ef;
+            padding-bottom: 1.5rem;
+        }
+        section:last-child {
+            border-bottom: none;
+        }
+        h2 {
+            color: #1e2a5e;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            border-left: 5px solid #3b82f6;
+            padding-left: 1rem;
+        }
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem;
+            margin-top: 0.5rem;
+        }
+        .skill-tag {
+            background: #e6f0fa;
+            padding: 0.4rem 1rem;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            color: #1e2a5e;
+        }
+        .project {
+            background: #f9fbfd;
+            padding: 1rem;
+            border-radius: 12px;
+            margin-bottom: 1rem;
+        }
+        .project a {
+            color: #3b82f6;
+            text-decoration: none;
+        }
+        .project a:hover {
+            text-decoration: underline;
+        }
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin-top: 0.5rem;
+        }
+        .contact-info div {
+            background: #eef2f7;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+        }
+        footer {
+            background: #f0f4f9;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.8rem;
+            color: #5a6e8a;
+        }
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.8rem; }
+            .content { padding: 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>[Your Full Name]</h1>
+        <p>B.Tech CSE | Full-Stack Developer | AI Enthusiast</p>
+    </header>
+    <div class="content">
+        <section>
+            <h2>📌 Introduction</h2>
+            <p>I am a B.Tech Computer Science student at <strong>Alliance University, Bengaluru</strong>. I specialize in full‑stack development (React.js, Next.js, PHP, MySQL) and cloud AI services (Microsoft Azure AI-900, Oracle OCI GenAI). I love building real-world applications and competing in international hackathons.</p>
+        </section>
+
+        <section>
+            <h2>⚙️ Technical Skills</h2>
+            <div class="skills-grid">
+                <span class="skill-tag">C</span><span class="skill-tag">C++</span><span class="skill-tag">Python</span>
+                <span class="skill-tag">HTML5/CSS3</span><span class="skill-tag">Bootstrap</span><span class="skill-tag">React.js</span>
+                <span class="skill-tag">PHP</span><span class="skill-tag">MySQL</span>
+                <span class="skill-tag">Azure (AI-900)</span><span class="skill-tag">OCI GenAI</span>
+                <span class="skill-tag">Vercel</span><span class="skill-tag">Git</span>
+                <span class="skill-tag">DSA</span><span class="skill-tag">OOP</span><span class="skill-tag">DBMS</span>
+                <span class="skill-tag">Problem-solving</span><span class="skill-tag">Analytical Thinking</span>
+            </div>
+        </section>
+
+        <section>
+            <h2>📁 Projects</h2>
+            <div class="project">
+                <strong>🏫 School ERP (Full-Stack)</strong><br>
+                Next.js with role-based access, authentication, server-side rendering. Deployed on Vercel.<br>
+                🔗 <a href="https://seadproject-jade.vercel.app" target="_blank">seadproject-jade.vercel.app</a>
+            </div>
+            <div class="project">
+                <strong>🌐 Full-Stack Web App</strong><br>
+                React frontend + PHP/MySQL backend, user authentication, responsive Bootstrap UI.
+            </div>
+        </section>
+
+        <section>
+            <h2>📜 Certifications</h2>
+            <ul style="margin-left: 1.5rem;">
+                <li>Oracle Cloud Infrastructure 2025 Generative AI Professional (Oct 2025)</li>
+                <li>Microsoft Azure AI Fundamentals (AI-900) – 2025</li>
+                <li>Web Development Certification – Internshala Trainings (84%)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>🏆 Hackathons</h2>
+            <ul style="margin-left: 1.5rem;">
+                <li><strong>AI for Sustainability Hackathon 2026</strong> – International (Canadian University Dubai & American Society of Engineers)</li>
+                <li><strong>Battle of Bytes</strong> – Alliance University × GDG Bengaluru</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>📬 Contact</h2>
+            <div class="contact-info">
+                <div>✉️ <a href="mailto:your.email@example.com">your.email@example.com</a></div>
+                <div>🔗 <a href="#">LinkedIn (add your link)</a></div>
+                <div>🐙 <a href="#">GitHub (add your link)</a></div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        © 2026 [Your Full Name] – Built with AI assistance
+    </footer>
+</div>
+</body>
+</html>
